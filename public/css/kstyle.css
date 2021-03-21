@@ -1,0 +1,61 @@
+.hello {
+    color: white;
+    font-family: "Lucida Calligraphy";
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 50px 0 50px 0;
+    color: #FFFFF0;
+    text-shadow: 2px 2px 3px #bbb;
+    text-align: center;
+}
+
+/*  打字效果 */
+.typing {
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    width: 25em;
+    animation: typing 5s steps(15), flash .75s infinite;
+    overflow: hidden;
+    font-family: "Times New Roman";
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.5px 0.5px 1px #FFFFF0;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 25em;
+    }
+}
+@keyframes flash {
+    from,
+    to {
+        box-shadow: 1px 0 0;
+    }
+    50% {
+        box-shadow: 1px 0 0 0 transparent;
+    }
+}
+
+#gchart {
+    margin-top: 50px;
+}
+
+#gchart-chart-card {
+    background-color: rgb(250, 250, 250, 0.8);
+    font-size: 18px;
+    font-family: "Times New Roman";
+    width: 50%;
+    height: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}

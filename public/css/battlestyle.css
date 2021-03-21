@@ -1,0 +1,78 @@
+.hello {
+    color: white;
+    font-family: "Lucida Calligraphy";
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 50px 0 50px 0;
+    color: #FFFFF0;
+    text-shadow: 2px 2px 3px #bbb;
+}
+
+/*  打字效果 */
+.typing {
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    width: 30em;
+    animation: typing 5s steps(15), flash .75s infinite;
+    overflow: hidden;
+    font-family: "Times New Roman";
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.5px 0.5px 1px #FFFFF0;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 30em;
+    }
+}
+@keyframes flash {
+    from,
+    to {
+        box-shadow: 1px 0 0;
+    }
+    50% {
+        box-shadow: 1px 0 0 0 transparent;
+    }
+}
+
+#arrow{
+    text-align: center;
+    width: 100%;
+    margin: 80px 0 80px 0;
+}
+#arrow-img {
+    animation:mymove 2s infinite;
+	-webkit-animation:mymove 2s infinite;
+}
+
+#barchart {
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+
+.searchbox {
+    width: 100%;
+    text-align: center;
+}
+
+.top-info-text {
+    background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Imprint MT Shadow;
+    text-align: center;
+}
+
+#radarchart {
+    margin-left: 10%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}

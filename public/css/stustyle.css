@@ -1,0 +1,308 @@
+/*  介绍语  */
+.introduction {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.hello {
+    font-family: "Lucida Calligraphy";
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 50px 0 50px 0;
+    color: #FFFFF0;
+    text-shadow: 2px 2px 3px #bbb;
+}
+/*  打字效果 */
+.typing {
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    width: 37em;
+    animation: typing 5s steps(15), flash .75s infinite;
+    overflow: hidden;
+    font-family: "Times New Roman";
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.5px 0.5px 1px #FFFFF0;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 37em;
+    }
+}
+@keyframes flash {
+    from,
+    to {
+        box-shadow: 1px 0 0;
+    }
+    50% {
+        box-shadow: 1px 0 0 0 transparent;
+    }
+}
+
+
+
+/* 搜索框 */
+.search {
+    text-align: center;
+    
+}
+#selectBox {
+    background-color: #f7ecb5;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    /*float: left;*/
+    z-index: 5;
+    font-size: 16px;
+    /*-moz-appearance:none;*/
+    /*-webkit-appearance:none;*/
+}
+
+#selectBox option {
+    font-size: 10px;
+    font-family: Calibri;
+    padding: 0px;
+    color: white;
+}
+
+.selectpicker show-tick{
+    display: inline-block;
+    /*float: right;*/
+    width: 250px;
+    height: 40px;
+    background:none;
+    background-color: #f7ecb5;
+    border:1px solid black;
+    border-radius: 20px;
+    /*top:-2px;*/
+    /*margin-left:-80px;*/
+    font-size: 16px;
+    font-weight: bold;;
+    z-index: 10;
+    font-family:"sans-serif";
+    color:#324b4e;
+}
+
+.submitBtn {
+    display: inline-block;
+    /*float: right;*/
+    width: 100px;
+    height: 40px;
+    background:none;
+    background-color: #f7ecb5;
+    border:1px solid black;
+    border-radius: 20px;
+    /*top:-2px;*/
+    /*margin-left:-80px;*/
+    font-size: 16px;
+    font-weight: bold;;
+    z-index: 10;
+    font-family: "sans-serif";
+    color:#324b4e;
+}
+
+.switch {
+    color: #CDC9C9;
+    font-family: "Calibri";
+    font-size: 18px;
+    margin: 40px 0 0 0;
+}
+
+/*  箭头下滑样式  */
+#arrow{
+    text-align: center;
+    width: 100%;
+    margin: 50px 0 80px 0;
+}
+#arrow-img {
+    animation:mymove 2s infinite;
+	-webkit-animation:mymove 2s infinite;
+}
+@keyframes mymove{
+	50% {
+        transform: translateY(-15px);
+    }
+	100% {
+		transform: translateY(0);
+	}
+}
+@-webkit-keyframes mymove {
+	50% {
+        transform: translateY(-15px);
+    }
+	100% {
+		transform: translateY(0);
+	}
+}
+
+
+/*  顶头信息  */
+.top-info {
+    width: 100%;
+    height: 80px;
+    /* display: flex; */
+   
+}
+.top-div-info {
+    width: 250px;
+    height: 80px;
+    /* line-height: -80px; */
+    background-color: bisque;
+    color: black;
+    font-size: 20px;
+    margin: 0 80px;
+    text-align: center;
+}
+.top-info-text {
+    background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Imprint MT Shadow;
+    text-align: center;
+}
+.top-info-text-left {
+    background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Imprint MT Shadow;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.top-info-text-right {
+    background: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Imprint MT Shadow;
+    text-align: right;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+/*  图表绘制  */
+#info-chart-1 {
+    height: 300px;
+    margin-bottom: 80px;
+}
+#info-chart-2 {
+    height: 300px;
+    margin-bottom: 80px;
+}
+#info-chart-3 {
+    height: 300px;
+    margin-bottom: 80px;
+}
+
+#calendar-chart-card {
+    background-color: rgb(250, 250, 250, 0.8);
+    font-size: 20px;
+    font-family: "Times New Roman";
+    width: 45%;
+    height: 150px;
+    padding: 14px 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 27%;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+.highlight-text {
+    font-family: "Broadway";
+    font-size: 28px;
+    color: #4682B4;
+    font-weight: bolder;
+}
+.highlight-text-red {
+    font-family: "Broadway";
+    font-size: 28px;
+    color:#B22222;
+    font-weight: bolder;
+}
+.highlight-text-yellow {
+    font-family: "Broadway";
+    font-size: 28px;
+    color:	#FFB90F;
+    font-weight: bolder;
+}
+.highlight-text-green {
+    font-family: "Broadway";
+    font-size: 28px;
+    color:#458B00;
+    font-weight: bolder;
+}
+#calendarchart {
+    margin: 50px 0 50px 0;
+}
+
+.sankey {
+    margin-bottom: 100px;
+}
+#sankey-chart-card {
+    width: 80%;
+    height: 200%;
+    background-color: rgb(250, 250, 250, 0.8);
+    font-size: 20px;
+    font-family: "Times New Roman";
+    padding: 20px 10px ;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+#sankeychart {
+    height: 300px;
+}
+
+#treemapchart {
+    height: 300px;
+    margin-bottom: 100px;
+}
+#treemap-chart-card {
+    width: 90%;
+    height: 300px;
+    background-color: rgb(250, 250, 250, 0.8);
+    font-size: 20px;
+    font-family: "Times New Roman";
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.predict {
+    margin-top: 50px;
+}
+
+#forgetchart {
+    height: 400px;
+    width: 100%;
+}
+#planchart {
+    height: 600px;
+    width: 100%;
+    margin-top: -50px;
+}
+
+#predict-chart-card {
+    background-color: rgb(250, 250, 250, 0.8);
+    font-size: 18px;
+    font-family: "Times New Roman";
+    width: 60%;
+    height: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
