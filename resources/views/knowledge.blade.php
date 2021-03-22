@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Welcome to Knowledge Report</title>
     <script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}" ></script>
     <script type="text/javascript" src="{{ URL::asset('js/echarts.min.js') }}" ></script>
     <script type="text/javascript" src="{{ URL::asset('js/bootstrap.js') }}" ></script>
     <script type="text/javascript" src="{{ URL::asset('js/bootstrap-select.min.js') }}" ></script>
+    <link rel="prerender" href="{{ URL::asset('images/new_bg7.png') }}" />
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/menu.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/kstyle.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap-select.min.css')}}">
